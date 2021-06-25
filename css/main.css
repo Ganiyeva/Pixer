@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url(icon.css);
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.hat {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: white;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	padding: 0 124px;
+}
+
+.container-header {
+	max-width: 1100px;
+	display: flex;
+	align-items: center;
+}
+
+.menus {
+	width: 533px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 319px;
+}
+
+.menu {
+	display: inline-block;
+	padding: 16px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu:hover {
+	border-bottom: 3px solid #191919;
+}
+
+.menu:active {
+	background: rgba(25, 25, 25, 0.7);
+	color: white;
+}
+
+.tel {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 24px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 8px 16px;
+	background: #00BAFC;
+	border-radius: 5px;
+	margin-left: 24px;
+}
+
+.tel:hover {
+	background: #FFFFFF;
+	border: 3px solid #00BAFC;
+	color: #00BAFC;
+}
+
+.tel:active {
+	background: rgba(0, 186, 252, 0.6);
+	color: #FFFFFF;
+}
+
+
+/*=======================
+XIZMATLAR BILAN TANISHISH
+========================*/
+
+.services-dating {
+	margin-top: 56px;
+	padding: 80px 0;
+}
+
+.container-xizmatlar {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.row1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.column-text {
+	width: 470px;
+	margin-right: 172px;
+}
+
+.column-video {
+	width: 458px;
+}
+
+.title-header {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 130%;
+	color: #000000;
+}
+
+.nullam {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin-top: 16px;
+}
+
+.dating {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 8px 16px;
+	background: #00BAFC;
+	border-radius: 5px;
+	margin-top: 16px;
+}
+
+.dating:hover {
+	background: rgba(0, 186, 252, 0.8);
+}
+
+.dating:active {
+	background: rgba(0, 186, 252, 0.6);
+}
+
+
+/*--=========
+ XIZMATLAR
+===========*/
+
+#services-info {
+	text-align: center;
+	padding: 56px 0;
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 130%;
+	color: #000000;
+	text-align: center;
+}
+
+.duis {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+	margin-top: 16px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.row2 {
+	display: flex;
+	margin: 0 -35px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.column-5 {
+	width: 33.3%;
+	padding: 0 35px;
+}
+
+.blog {
+	display: inline-block;
+	background: #FFFFFF;
+	border-radius: 5px;
+	padding: 24px 58.6px;
+}
+
+.blog:hover{
+	cursor: pointer;
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+	margin-top: 48px;
+}
+
+.web {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 130%;
+	color: #000000;
+	margin-top: 16px;
+}
+
+.lorem {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin-top: 16px;
+}
+
+.order {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 8px 16px;
+	background: #00BAFC;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+.Go-page {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #00BAFC;
+	margin-left: 16px;
+	margin-top: 48px;
+}
+
+
+/*=====================
+ BIZ QANDAY ISHLAYMIZ?
+=====================*/
+
+.offer-quality {
+	text-align: center;
+	padding: 56px 0;
+}
+
+.offer-container {
+	max-width: 832px;
+	margin: 0 auto;
+}
+
+.row3 {
+	display: flex;
+	align-items: center;
+	margin: 0 -16px;
+	flex-wrap: wrap;
+}
+
+.column-37 {
+	width: 37.5%;
+	padding: 0 16px;
+}
+
+.column-62 {
+	width: 62.5%;
+	padding: 0 16px;
+}
+
+.accuracy {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 130%;
+	color: #000000;
+	text-align: start;
+}
+
+.nam {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin-top: 8px;
+	text-align: start;
+}
+
+.mart {
+	margin-top: 55px;
+}
+
+
+/*===============
+ BUYURTMA BERISH
+===============*/
+
+#Ordering {
+	background: #00BAFC;
+	text-align: center;
+	padding: 56px 0 64px 0;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.questionnaire {
+	display: inline-block;
+	padding: 24px;
+	background: white;
+	border-radius: 5px;
+}
+
+.name {
+	padding: 19px 102px 19px 18px;
+	background: #F3F3F3;
+	border-radius: 5px;
+	border: none;
+}
+
+#service-select {
+	padding: 16px 156px 16px 14px;
+	background: #F3F3F3;
+	border-radius: 5px;
+	border: none;
+	margin-top: 16px;
+}
+
+.phone {
+	margin-top: 16px;
+}
+
+.to-order {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding: 8px 16px;
+	border: none;
+	background: #00BAFC;
+	border-radius: 5px;
+	margin-top: 16px;
+}
+
+
+/*=========
+  FOOTER
+=========*/
+
+.information {
+	padding: 56px 408px 56px 100px;
+	background: #191919;
+}
+
+.container-footer {
+	max-width: 792px;
+}
+
+.row4 {
+	display: flex;
+}
+
+.column-50 {
+	width: 50%;
+	padding-right: 75px;
+}
+
+.column-25 {
+	width: 25%;
+}
+
+.title-footer {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 130%;
+	color: #FFFFFF;
+	margin-bottom: 16px;
+}
+
+.laoreet {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+ul,
+li {
+	list-style-type: none;
+	line-height: 30px;
+}
+
+.footer-menu {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 8px;
+	text-align: start;
+}
+
+.footer-menu i {
+	display: inline-block;
+	font-size: 22px;
+	color: white;
+	vertical-align: middle;
+	line-height: 30px;
+	margin-right: 8px;
+}
+
+.footer-menu:hover {
+	color: #00BAFC;
+}
+
+.footer-menu:active {
+	color: #00BAFC;
+}
